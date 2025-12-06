@@ -6,8 +6,8 @@ import os
 import time
 
 # --- CONFIGURATION ---
-SENDER_EMAIL = "projectcertificate01@gmail.com"
-SENDER_PASSWORD = "lxukvworazpptjzy" # <<< REPLACE THIS WITH YOUR APP PASSWORD
+SENDER_EMAIL = ""
+SENDER_PASSWORD = "" # <<< REPLACE THIS WITH YOUR APP PASSWORD
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
@@ -119,7 +119,7 @@ def send_email(recipient_email, recipient_name, certificate_path):
     Keep up the great work!
 
     Sincerely,
-    [Your Dictator-Om]
+    []
     """
     msg.set_content(body.strip())
     
